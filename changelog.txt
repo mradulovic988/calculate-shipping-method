@@ -1,0 +1,15 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+## [Unreleased]
+
+## [1.0.0] - 2020-06-26
+### Added
+- Added structure
+
+### Changed
+
+### Removed
+
+### Bugs
+- Check the path for the js
