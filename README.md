@@ -1,0 +1,1 @@
+Calculate all shipping method per specific condition
