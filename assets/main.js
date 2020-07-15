@@ -1,6 +1,6 @@
 (function($)
 {
-    function hg_display_one_shipping_total()
+    function csm_calculate_shipping_method()
     {
         // Add up all the shipping amounts from existing shipping rows.
         var shipping_total= 0;
@@ -44,13 +44,13 @@
     {
         setTimeout(function()
         {
-            hg_display_one_shipping_total();
+            csm_calculate_shipping_method();
         },1000);
         setInterval(function()
         {
             if($('.hg_shipping_total').length == 0)
             {
-                hg_display_one_shipping_total();
+                csm_calculate_shipping_method();
             }
         }, 3000);
     });

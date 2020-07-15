@@ -22,12 +22,14 @@ defined('ABSPATH') or die('You can not access here.');
 
 function csm_activate()
 {
-	require_once plugin_dir_path(__FILE__) . '/inc/CsmActivate.php';
+    require_once plugin_dir_path(__FILE__) . 'inc/CsmActivate.php';
 }
+
+require_once plugin_dir_path(__FILE__) . 'inc/CsmActivate.php';
 
 function csm_deactivate()
 {
-	flush_rewrite_rules();
+    flush_rewrite_rules();
 }
 
 register_activation_hook(__FILE__, 'csm_activate');
