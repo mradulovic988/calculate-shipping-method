@@ -10,7 +10,7 @@
  * Plugin URI:        https://www.fixrunner.com
  * Description:       Calculate all shipping method per specific condition
  * Version:           1.0.0
- * Author:            FixRunner
+ * Author:            FixRunner, Dev: Marko R.
  * Author URI:        https://www.fixrunner.com
  * License:           GPL-3.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
